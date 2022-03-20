@@ -20,7 +20,7 @@
       }   ?> </div>
 
     <div class="alert alert-danger" role="alert" style="margin: 0; padding:0;">
-      <?php  if (isset($_GET['delete']) && $_GET['delete'] == 1) {
+      <?php if (isset($_GET['delete']) && $_GET['delete'] == 1) {
         echo "Record delete successfully";
       }  ?>
     </div>

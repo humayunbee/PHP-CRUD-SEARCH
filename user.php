@@ -15,7 +15,6 @@ if (isset($_POST['submit'])) {
 
     if ($result) {
         header('location:display.php?success=1');
-        
     } else {
 
         die(mysqli_error($con));
